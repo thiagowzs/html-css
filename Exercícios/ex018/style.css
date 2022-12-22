@@ -1,0 +1,10 @@
+@charset "UFT-8";
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+h1 {
+    font: italic bolder 5em arial
+}
