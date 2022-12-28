@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Tabela</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+
+        td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Grupo
+                <th scope="col">Nomes
+                <th scope="colgroup" colspan="3">Filmes
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres
+                <td>Ana Maria Santos
+                <td>Alien
+                <td>Rambo
+                <td>Vingadores
+            </tr>
+            <tr>
+                <td>Beatriz Souza
+                <td>Hulk
+                <td>Inception
+                <td>Batman
+            </tr>
+            <tr>
+                <td>Cláudia Melo
+                <td>Oblivion
+                <td>Matrix
+                <td>Big Hero
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens
+                <td>Bruno Mendonça
+                <td>Intocáveis
+                <td>Amnésia
+                <td>Gladiador
+            </tr>
+            <tr>
+                <td>Daniel Lourenço
+                <td>Wall-E
+                <td>Oldboy
+                <td>Dangal
+            </tr>
+            <tr>
+                <td>Fabiano Mota
+                <td>Star Wars 5
+                <td>Taxi Driver
+                <td>Toy Story
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row" colspan="4">Total
+            <td>0000
+        </tfoot>
+    </table>
+    
+</body>
+</html>
